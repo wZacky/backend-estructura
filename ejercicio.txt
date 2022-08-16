@@ -1,0 +1,24 @@
+- Se podrá registar, editar, borrar libros. Los datos necesario para registrar un libro son:
+
+  - Autor o Autores
+  - Título
+  - Género
+  - Categoría
+  - Editorial
+  - Fecha de impresión
+  - No. Páginas
+  - ISBN
+  - Idioma
+  - Tipo (físico/electrónico)
+  - Se necesita mayoría de edad
+  - Portada (imagen)
+
+- Los libros son rentados por los clientes de los cuales necesitamos registrar los siguientes datos:
+
+  - Nombre
+  - Fecha de nacimiento
+  - Edad
+  - Direcciones
+  - Referencias (nombre y teléfono)
+  - Correo electrónico
+  - Teléfono
