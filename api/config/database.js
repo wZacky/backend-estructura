@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import credentials from './index.js';
 
 const db = mongoose.connection;
 
@@ -15,5 +16,5 @@ db.on('error', () => {
 });
 
 export default () => {
-  mongoose.connect('mongodb://localhost/library');
+  mongoose.connect(credentials.database.uri);
 }

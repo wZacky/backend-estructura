@@ -4,6 +4,8 @@ import bookRoutes from './routes/bookRoutes.js';
 const api = express();
 
 // TODO: Configurar Middlewares
+// con .use se registran los middlewares
+api.use(express.json())
 
 api.get('/status', (req, res) => {
   return res.json({
